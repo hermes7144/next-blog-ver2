@@ -1,8 +1,8 @@
-import { getFeaturedAllPosts } from '@/service/posts';
+import { getFeaturedPosts } from '@/service/posts';
 import PostGrid from './PostGrid';
 
 export default async function FeaturedPosts() {
-  const posts = await getFeaturedAllPosts();
+  const posts = await getFeaturedPosts();
 
   return (
     <section className='my-4'>
