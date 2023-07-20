@@ -2,7 +2,7 @@ import AdjacentPostCard from '@/components/AdjacentPostCard';
 import PostContent from '@/components/PostContent';
 import { getFeaturedPosts, getPostData } from '@/service/posts';
 import Image from 'next/image';
-import { Metadata, ResolvingMetadata } from 'next';
+import { Metadata } from 'next';
 
 type Props = {
   params: {
