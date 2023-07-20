@@ -21,7 +21,7 @@ React 컴포넌트느 JSX라는 구문 확장자를 사용하여 해당되는 �
 
 ### 2. 모든 태그를 닫으세요.
 
-### 3. 거의 대부분이 카멜 케이스입니다!
+### 3. ~~거의~~ 대부분이 카멜 케이스입니다!
 
 ```jsx
 <img
@@ -30,3 +30,37 @@ React 컴포넌트느 JSX라는 구문 확장자를 사용하여 해당되는 �
   className='photo'
 />
 ```
+
+## 중괄호 사용하기
+
+JSX는 JavaScript를 작성하는 특별한 방법입니다. 이는, 중괄호 `{ }`안에서 JavaScript를 사용할 수 있다는 의미입니다.
+아래 예시에서는 먼저 과학자의 이름인 name 을 선언한 다음 <h1>안에 중괄호와 함께 포함시켰습니다.
+
+```jsx
+export default function TodoList() {
+  const name = 'Gregorio Y. Zara';
+  return <h1>{name}'s To Do List</h1>;
+}
+```
+
+## 중괄호 사용 위치
+
+1. JSX 태그 안에 직접 **텍스트**로 사용 `<h1>{name}'s To Do List</h1>`는 작동하지만 <{tag}>NoName's To Do List</{tag}>는 작동하지 않습니다.
+2. `=` 기호 바로 뒤에 오는 **속성**: `src={avatar}`는 아바타 변수를 읽지만 src="{avatar}"는 문자열 "{avatar}"를 전달합니다.
+
+## 이중 중괄호 사용: JSX 내에서의 CSS 및 다른 객체
+
+문자열, 숫자 및 기타 JavaScript 표현식 외에도 JSX로 객체를 전달할 수도 있습니다. 따라서 JSX에서 JS 객체를 전달하려면 다른 중괄호 쌍으로 객체를 감싸야 합니다. `person={{name: "Hedy Lamarr", inventions: 5}}`
+
+JSX 인라인 CSS 스타일에서 이것을 볼 수 있습니다. React에서는 인라인 스타일을 사용할 필요가 없습니다. 하지만 인라인 스타일이 필요한 경우 `style` 어트리뷰트에 객체를 전달합니다.
+
+```jsx
+<ul style={
+  {
+    backgroundColor: 'black',
+    color:'pink'
+  }
+}>
+```
+
+다음에 JSX에서 `{{`와 `}}`를 볼 때, 이는 JSX 중괄호 내부의 객체일 뿐이라는 점을 기억하세요!

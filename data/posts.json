@@ -1,13 +1,5 @@
 [
   {
-    "title": "리액트 사용하는 이유",
-    "description": "리액트를 사용하는 이유 정리",
-    "date": "2023-07-12",
-    "category": "react",
-    "path": "react-use-reason",
-    "featured": false
-  },
-  {
     "title": "2021년 리뷰",
     "description": "2021년 한해 동안 배운 기술들, 생각들 정리",
     "date": "2021-12-31",
@@ -78,6 +70,38 @@
     "category": "my story",
     "path": "review-2023",
     "featured": true
+  },
+  {
+    "title": "jsx",
+    "description": "jsx",
+    "date": "2023-07-12",
+    "category": "react",
+    "path": "react-jsx",
+    "featured": false
+  },
+  {
+    "title": "react-props",
+    "description": "react-props",
+    "date": "2023-07-15",
+    "category": "react",
+    "path": "react-props",
+    "featured": false
+  },
+  {
+    "title": "react-redering-lists",
+    "description": "react-redering-lists",
+    "date": "2023-07-16",
+    "category": "react",
+    "path": "react-redering-lists",
+    "featured": false
+  },
+  {
+    "title": "react-components-pure",
+    "description": "react-components-pure",
+    "date": "2023-07-16",
+    "category": "react",
+    "path": "react-components-pure",
+    "featured": false
   }
 ]
 
