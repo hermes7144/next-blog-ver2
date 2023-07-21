@@ -80,7 +80,7 @@
     "featured": false
   },
   {
-    "title": "react-props",
+    "title": "props",
     "description": "react-props",
     "date": "2023-07-15",
     "category": "react",
@@ -88,7 +88,7 @@
     "featured": false
   },
   {
-    "title": "react-redering-lists",
+    "title": "목록 렌더링",
     "description": "react-redering-lists",
     "date": "2023-07-16",
     "category": "react",
@@ -96,7 +96,7 @@
     "featured": false
   },
   {
-    "title": "react-components-pure",
+    "title": "순수 컴포넌트",
     "description": "react-components-pure",
     "date": "2023-07-16",
     "category": "react",
@@ -104,19 +104,27 @@
     "featured": false
   },
   {
-    "title": "react-state",
+    "title": "state",
     "description": "react-state",
-    "date": "2023-07-20",
+    "date": "2023-07-21 10:00",
     "category": "react",
     "path": "react-state",
     "featured": false
   },
   {
-    "title": "react-render-and-commit",
+    "title": "렌더링하고 커밋하기",
     "description": "react-render-and-commit",
-    "date": "2023-07-20",
+    "date": "2023-07-21 12:00",
     "category": "react",
     "path": "react-render-and-commit",
+    "featured": false
+  },
+  {
+    "title": "스냅샷으로서의 state",
+    "description": "",
+    "date": "2023-07-21 14:00",
+    "category": "react",
+    "path": "react-snapshot",
     "featured": false
   }
 ]
