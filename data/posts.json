@@ -102,6 +102,22 @@
     "category": "react",
     "path": "react-components-pure",
     "featured": false
+  },
+  {
+    "title": "react-state",
+    "description": "react-state",
+    "date": "2023-07-20",
+    "category": "react",
+    "path": "react-state",
+    "featured": false
+  },
+  {
+    "title": "react-render-and-commit",
+    "description": "react-render-and-commit",
+    "date": "2023-07-20",
+    "category": "react",
+    "path": "react-render-and-commit",
+    "featured": false
   }
 ]
 
