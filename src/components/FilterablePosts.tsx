@@ -3,6 +3,7 @@ import { Post } from '@/service/posts';
 import { useState } from 'react';
 import PostGrid from './PostGrid';
 import Categories from './Categories';
+import { useSearchParams } from 'next/navigation';
 
 type Props = {
   posts: Post[];
@@ -12,7 +13,9 @@ type Props = {
 const ALL_POSTS = 'All Posts';
 
 export default function FilterablePosts({ posts, categories }: Props) {
-  const [selected, setSelected] = useState(ALL_POSTS);
+  const params = useSearchParams();
+
+  const [selected, setSelected] = useState(params.get('category') || ALL_POSTS);
   const filtered = selected === ALL_POSTS ? posts : posts.filter((post) => post.category === selected);
 
   return (

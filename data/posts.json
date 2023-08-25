@@ -126,6 +126,63 @@
     "category": "react",
     "path": "react-snapshot",
     "featured": false
+  },
+
+  {
+    "title": "네트워크-1",
+    "description": "웹과 네트워크",
+    "date": "2023-08-20 00:00",
+    "category": "network",
+    "path": "http-network-1",
+    "featured": false
+  },
+  {
+    "title": "네트워크-2",
+    "description": "HTTP",
+    "date": "2023-08-20 00:00",
+    "category": "network",
+    "path": "http-network-2",
+    "featured": false
+  },
+  {
+    "title": "네트워크-3",
+    "description": "HTTP 메시지",
+    "date": "2023-08-21 00:00",
+    "category": "network",
+    "path": "http-network-3",
+    "featured": false
+  },
+  {
+    "title": "네트워크-4",
+    "description": "HTTP 상태코드",
+    "date": "2023-08-21 00:00",
+    "category": "network",
+    "path": "http-network-4",
+    "featured": false
+  },
+  {
+    "title": "네트워크-5",
+    "description": "웹 서버",
+    "date": "2023-08-22 00:00",
+    "category": "network",
+    "path": "http-network-5",
+    "featured": false
+  },
+  {
+    "title": "네트워크-7",
+    "description": "HTTPS",
+    "date": "2023-08-23 00:00",
+    "category": "network",
+    "path": "http-network-7",
+    "featured": false
+  },
+  {
+    "title": "네트워크-8",
+    "description": "인증",
+    "date": "2023-08-23 00:10",
+    "category": "network",
+    "path": "http-network-8",
+    "featured": false
   }
 ]
 
