@@ -125,7 +125,7 @@ export default function Navbar() {
 }
 ```
 
-![Alt text](image-12.png)
+![Alt text](./image-12.png)
 
 위의 사진은 Navbar.tsx를 구현한 것으로 css를 적용하지 않았다. css를 적용하기 위해 tailwindcss를 사용할 것이다.
 
@@ -214,5 +214,5 @@ export default function Navbar() {
 }
 ```
 
-![Alt text](./image-14.png)
+![Alt text](/image-14.png)
 페이지가 중간으로 이동했고, tailwind로 스타일링 적용이 완료되었다.
