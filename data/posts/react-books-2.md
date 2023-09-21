@@ -6,7 +6,7 @@ yarn add react-router-dom
 
 파일 구성은 아래와 같이 합니다.
 
-![Alt text](/images/book-2/image-1.png)
+![Alt text](/images/book-2/image-9.png)
 
 index.tsx에 라우터 구성을 해줍니다.
 
