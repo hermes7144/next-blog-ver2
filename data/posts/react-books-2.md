@@ -6,7 +6,7 @@ yarn add react-router-dom
 
 파일 구성은 아래와 같이 합니다.
 
-![Alt text](image-9.png)
+![Alt text](/images/book-2/image-1.png)
 
 index.tsx에 라우터 구성을 해줍니다.
 
@@ -70,11 +70,11 @@ export default App;
 
 주소창에 localhost:3000/books로 검색을 하면 books 페이지로 라우팅이 된 것을 확인할 수 있다.
 
-![Alt text](/images/image-10.png)
+![Alt text](/images/book-2/image-10.png)
 
 다음으로 상단의 네비게이션 바를 구성해준다.
 우선 src > components 폴더 안에 Navbar.tsx를 생성한다.
-![Alt text](/images/image-11.png)
+![Alt text](/images/book-2/image-11.png)
 
 그리고 App.tsx에 Navbar를 가져온다.
 
@@ -125,7 +125,7 @@ export default function Navbar() {
 }
 ```
 
-![Alt text](/images/image-12.png)
+![Alt text](/images/book-2/image-12.png)
 
 위의 사진은 Navbar.tsx를 구현한 것으로 css를 적용하지 않았다. css를 적용하기 위해 tailwindcss를 사용할 것이다.
 
@@ -214,5 +214,5 @@ export default function Navbar() {
 }
 ```
 
-![Alt text](/images/image-14.png)
+![Alt text](/images/book-2/image-14.png)
 페이지가 중간으로 이동했고, tailwind로 스타일링 적용이 완료되었다.
