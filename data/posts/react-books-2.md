@@ -214,5 +214,5 @@ export default function Navbar() {
 }
 ```
 
-![Alt text](image-14.png)
+![Alt text](./image-14.png)
 페이지가 중간으로 이동했고, tailwind로 스타일링 적용이 완료되었다.
