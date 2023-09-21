@@ -183,6 +183,22 @@
     "category": "network",
     "path": "http-network-8",
     "featured": false
+  },
+  {
+    "title": "동네책방-1",
+    "description": "리액트 설치 및 기본 셋팅",
+    "date": "2023-09-20",
+    "category": "react",
+    "path": "react-books-1",
+    "featured": false
+  },
+  {
+    "title": "동네책방-2",
+    "description": "리액트 라우터 설정 및 tailwind 설정",
+    "date": "2023-09-20",
+    "category": "react",
+    "path": "react-books-2",
+    "featured": false
   }
 ]
 

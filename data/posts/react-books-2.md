@@ -94,3 +94,125 @@ function App() {
 
 export default App;
 ```
+
+Navbar의 아이콘 사용을 위해 react-icons 라이브러리를 설치합니다.
+
+```jsx
+yarn add react-icons
+```
+
+BsFillPencilFill를 react-icons에서 import 하면 아이콘을 사용할 수 있습니다. Link를 사용하면 라우팅한 페이지 주소를 to 속성에 사용해 연결 시켜줄 수 있습니다.
+
+```jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { BsFillPencilFill } from 'react-icons/bs';
+export default function Navbar() {
+  return (
+    <header>
+      <nav>
+        <Link to='/'>동네책방</Link>
+        <Link to='/neighborhood'>동네인증</Link>
+      </nav>
+      <nav>
+        <Link to='/books/new'>
+          <BsFillPencilFill />
+        </Link>
+        <button>Login</button>
+      </nav>
+    </header>
+  );
+}
+```
+
+![Alt text](image-12.png)
+
+위의 사진은 Navbar.tsx를 구현한 것으로 css를 적용하지 않았다. css를 적용하기 위해 tailwindcss를 사용할 것이다.
+
+tailwindcss 링크: https://tailwindcss.com/
+
+```
+yarn add -D tailwindcss
+npx tailwindcss init
+```
+
+npx를 설치하고 tailwind.config.js 파일을 셋팅해준다. content에 js,jsx,ts,tsx 파일 전체를 셋팅한다. 커스텀 컬러를 설정해 자신이 원하는 색을 빠르게 사용할 수 있다.
+
+```js
+// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#f75866',
+      },
+    },
+  },
+  plugins: [],
+};
+```
+
+그리고 index.css에 아래와 같이 코드를 기입하면 tailwind 셋팅이 완료된다.
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, ...;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+```
+
+그리고 최대넓이를 지정해주기 위해 index.css에 스타일 기입을 해준다.
+
+```css
+body {
+  margin: 0;
+  font-family: -apple-system, ...;
+  -moz-osx-font-smoothing: grayscale;
+  @apply flex flex-col items-center;
+}
+
+#root {
+  @apply w-full max-w-screen-2xl;
+}
+```
+
+Navbar 스타일 작업을 위해서 아래와 같이 className에 기입해준다.
+
+```jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { BsFillPencilFill } from 'react-icons/bs';
+export default function Navbar() {
+  return (
+    <header className='flex justify-between border-b border-gray-300 p-2'>
+      <nav className='flex items-end gap-4 font-semibold'>
+        <Link to='/' className='text-4xl text-primary'>
+          store
+        </Link>
+        <Link to='/neighborhood'>neighborhood</Link>
+      </nav>
+      <nav className='flex items-center gap-4 font-semibold'>
+        <Link to='/books/new' className='text-xl'>
+          <BsFillPencilFill />
+        </Link>
+        <button>Login</button>
+      </nav>
+    </header>
+  );
+}
+```
+
+![Alt text](image-14.png)
+페이지가 중간으로 이동했고, tailwind로 스타일링 적용이 완료되었다.
