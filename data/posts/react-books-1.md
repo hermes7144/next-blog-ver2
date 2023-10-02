@@ -9,7 +9,7 @@ npx create-react-app books --template typescript
 ![Alt text](image.png)
 
 생성이 완료되면 아래와 같은 메세지를 볼 수 있다.
-![Alt text](/images/react-1/3.png)
+![Alt text](/images/book-1/3.png)
 
 메세지를 입력해 리액트 앱을 실행시킵니다.
 
@@ -18,7 +18,7 @@ cd books
 npm start
 ```
 
-![Alt text](/images/react-1/5.png)
+![Alt text](/images/book-1/5.png)
 그러면 다음과 같은 창이 뜨는 걸 확인할 수 있습니다. 리액트 생성이 정상적으로 되었습니다.
 CRA는 react
 
@@ -48,9 +48,9 @@ CRA는 react
 - logo.svg: 사용하지 않으므로 제거
 
 - App.js: 수정이 필요
-  ![Alt text](/images/react-1/7.png)
+  ![Alt text](/images/book-1/7.png)
 
 3. 변경 후 프로젝트 구조
-   ![Alt text](/images/react-1/6.png)
+   ![Alt text](/images/book-1/6.png)
 
 여기까지 했다면 프로젝트를 시작할 준비가 어느정도 되었다.
