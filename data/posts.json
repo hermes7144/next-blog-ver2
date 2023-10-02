@@ -199,6 +199,14 @@
     "category": "react",
     "path": "react-books-2",
     "featured": false
+  },
+  {
+    "title": "동네책방-3",
+    "description": "firebase 인증 구현",
+    "date": "2023-10-01",
+    "category": "react",
+    "path": "react-books-3",
+    "featured": false
   }
 ]
 
